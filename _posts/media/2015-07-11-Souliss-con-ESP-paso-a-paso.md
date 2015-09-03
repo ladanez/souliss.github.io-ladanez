@@ -137,14 +137,14 @@ Llegados a este punto tan solo nos queda grabar el sketch dentro del módulo ESP
 El sketch que vamos a usar es el ejemplo básico que podemos encontrar en el repositorio de Github de souliss, aqui está el enlace directo. Con una salvedad, en el código que muestro a continuación, ya he establecido el uso del PIN GPIO2 para el encendido y apagado de un led. Este punto puedes verlo en el codigo en **negrita**.
 
 En el código las líneas en **negrita**, debéis establecer el nombre de tu SSID, esto es el nombre de la wifi a la que te conectas. En mi caso BOFH_WIFI.
-
-_/**************************************************************************
+```objective-c
+/**************************************************************************
         Souliss - Hello World for Expressif ESP8266
         This is the basic example, create a software push-button on Android
         using SoulissApp (get it from Play Store).  
         Load this code on ESP8266 board using the porting of the Arduino core
         for this platform.
-***************************************************************************/_
+***************************************************************************/
 
 // Configure the framework
 #include "bconf/MCU_ESP8266.h"                  // Load the code directly on the ESP8266
@@ -152,8 +152,8 @@ _/**************************************************************************
 #include "conf/IPBroadcast.h"
 // **** Define the WiFi name and password ****
 #define WIFICONF_INSKETCH
-**#define WiFi_SSID                   "BOFH_WIFI"**
-**#define WiFi_Password    "mipassword"**
+#define WiFi_SSID       "SSID"
+#define WiFi_Password   "PASSWORD"
 // Include framework code and libraries
 #include <ESP8266WiFi.h>
 #include <EEPROM.h>
@@ -161,8 +161,8 @@ _/**************************************************************************
 // This identify the number of the LED logic
 #define MYLEDLOGIC              0                  
 
-_// **** Define here the right pin for your ESP module ****
-**//ESTA ES LA MODIFICACION DEL USO DEL PIN GPIO2 PARA EL MODULO ESP8266**
+// **** Define here the right pin for your ESP module ****
+//ESTA ES LA MODIFICACION DEL USO DEL PIN GPIO2 PARA EL MODULO ESP8266
 #define    OUTPUTPIN                    2
 //########################
 void setup(){  
@@ -176,8 +176,8 @@ void setup(){
         SetAsPeerNode(0xAB02, 1);
         Set_SimpleLight(MYLEDLOGIC);            // Define a simple LED light logic
         pinMode(OUTPUTPIN, OUTPUT);             // Use pin as output
-}_
-_void loop(){
+}
+void loop(){
         // Here we start to play
         EXECUTEFAST() {                        
             UPDATEFAST();  
@@ -188,7 +188,8 @@ _void loop(){
             // Here we handle here the communication with Android
             FAST_GatewayComms();                                            
         }
-}_
+}
+```
 
 Para hacer una prueba de que todo va bien, antes de meterlo en el ESP8266 podemos pulsar Verificar. Esto realizará una compilación y nos avisará que todo ha ido bien o si se han producido fallos.
 ![image09](https://cloud.githubusercontent.com/assets/1657291/9610686/691b066c-50db-11e5-9c44-e2a46706705c.png)
