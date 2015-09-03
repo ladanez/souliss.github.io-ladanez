@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "How to load a sketch on ESP12 Module."
+title: "Tutorial Basico para el ESP WIFI."
 categories: media
-excerpt: "Custom written post descriptions are the way to go... if you're not lazy."
+excerpt: "Cuestiones basicas con imagenes para los primeros pasos con los modulos ESP WIFI en Souliss"
 ads: false
 share: true
 author: luisadanez
