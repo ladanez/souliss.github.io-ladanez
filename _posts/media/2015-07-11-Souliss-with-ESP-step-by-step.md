@@ -19,6 +19,8 @@ In this tutorial only we use the module ESP8266-01, it is the model with only 2 
 I thank you who helped me and hope that this manual and others I'll be doing to be useful to the community.
 
 
+Sorry but I have not been able to put pictures in English.
+
 
 ## HARDWARE: (I do not specified usb wires, PC and other wires conection.)
 
