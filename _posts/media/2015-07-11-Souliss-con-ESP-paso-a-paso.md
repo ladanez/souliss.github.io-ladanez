@@ -25,7 +25,7 @@ Agradezco a los que me habéis ayudado a orientarme un poco y espero que este ma
 ![image02](https://cloud.githubusercontent.com/assets/1657291/9608868/d368f570-50d0-11e5-9c3f-77585d4bbc25.jpg)
 
 - FTDI (para poder conectar el módulo ESP8266 al ordenador).
-![image19](https://cloud.githubusercontent.com/assets/1657291/9608919/159d5616-50d1-11e5-90dd-acf8f117beb8.jpg)
+![imagen_2b](https://cloud.githubusercontent.com/assets/1657291/10479875/1b73520e-7267-11e5-8e8d-d77420907190.png)
 
 - Protoboard.
 ![image14](https://cloud.githubusercontent.com/assets/1657291/9608930/269d1abe-50d1-11e5-8779-36ad3ff43c2c.jpg)
@@ -38,10 +38,10 @@ Para poder introducir el sketch en el módulo es necesario instalar el programa 
 
 Una vez descargado es necesario realizar una actualización de un módulo para poder “grabar” el proyecto (sketch) sobre el módulo ESP8266.
 
-Para ello una vez instalado el programa Arduino iremos al menú superior Archivo>>Preferencias.
+Para ello una vez instalado el programa Arduino iremos al menú superior Archivo >> Preferencias
 
 Se abrirá la siguiente ventana:
-![image16](https://cloud.githubusercontent.com/assets/1657291/9609021/a1725056-50d1-11e5-8e55-996295d03b96.png)
+![imagen_4](https://cloud.githubusercontent.com/assets/1657291/10479572/771a42b8-7265-11e5-8d97-d36f9ae27d28.png)
 
 En el área que se muestra en rojo es necesario escribir lo siguiente, como se puede ver en la imagen: (podéis ver la documentación aqui https://github.com/esp8266/Arduino)
 
@@ -241,7 +241,7 @@ Ya tenemos el módulo haciendo de gateway en nuestro sistema.
 
 Cierra completamente y vuelve a abrirla para comprobar que se muestra algo parecido a lo siguiente:
 
-![image05](https://cloud.githubusercontent.com/assets/1657291/9610807/0e0229e4-50dc-11e5-82b8-96863af82ee8.jpg)
+![imagen_18](https://cloud.githubusercontent.com/assets/1657291/10479980/bdb1e008-7267-11e5-8257-72929fd5070d.jpg)
 
 Ahora vamos a realizar una prueba del uso del módulo gateway que acabamos de añadir.
 
@@ -258,7 +258,7 @@ Una vez hecho esto, se nos mostrará el nodo 0, que es la gateway. (si no aparec
 
 Ya seleccionamos el Nodo 0, y ya podemos ver como actúa encendiendo y apagando nuestro led.
 
-![image21](https://cloud.githubusercontent.com/assets/1657291/9610825/33e863c6-50dc-11e5-9555-61ecf15848dc.jpg)
+![imagen_20](https://cloud.githubusercontent.com/assets/1657291/10479990/e23becc0-7267-11e5-859a-db0f879b1399.jpg)
 
 
 
