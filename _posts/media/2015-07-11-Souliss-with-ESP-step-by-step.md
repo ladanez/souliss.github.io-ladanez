@@ -33,14 +33,14 @@ Sorry but I have not been able to put pictures in English.
 - Protoboard.
 ![image14](https://cloud.githubusercontent.com/assets/1657291/9608930/269d1abe-50d1-11e5-8779-36ad3ff43c2c.jpg)
 
-- Móvil/Tablet with android for instalation the SOULISS app.
+- Mobile/Tablet with android for instalation the SOULISS app.
 
 
 ## SOFTWARE:
  
-We need install the app arduino for load sketch in the module ESP8266. You can find it (https://www.arduino.cc/en/Main/Software).
+We need install the Arduino IDE to load an sketch on the ESP8266 module. You can find it here: (https://www.arduino.cc/en/Main/Software).
 
-Once download the app we need update the app Arduino with the module ESP8266 for we can load the sketch into the ESP8266.
+Once downloaded the IDE you need to add the ESP8266 core on Arduino IDE to upload an sketch into the ESP8266.
 
 The following window will open:
 ![imagen_4](https://cloud.githubusercontent.com/assets/1657291/10479572/771a42b8-7265-11e5-8d97-d36f9ae27d28.png)
