@@ -160,8 +160,11 @@ In the code with **bold** lines, you must set the same name of your SSID, this i
 #include "conf/IPBroadcast.h"
 // **** Define the WiFi name and password ****
 #define WIFICONF_INSKETCH
-#define WiFi_SSID       "SSID"
-#define WiFi_Password   "PASSWORD"
+```
+**Set here your SSID and PASSWORD about your wifi connection.**
+```objective-c
+#define WiFi_SSID       "BOFH_WIFI"
+#define WiFi_Password   "mipassword"
 // Include framework code and libraries
 #include <ESP8266WiFi.h>
 #include <EEPROM.h>
@@ -170,7 +173,9 @@ In the code with **bold** lines, you must set the same name of your SSID, this i
 #define MYLEDLOGIC              0                  
 
 // **** Define here the right pin for your ESP module ****
-//This is my modification of GPIO2 named it above.
+```
+**This is my modification of GPIO2 named it above.**
+```objective-c
 #define    OUTPUTPIN                    2
 //########################
 void setup(){  
