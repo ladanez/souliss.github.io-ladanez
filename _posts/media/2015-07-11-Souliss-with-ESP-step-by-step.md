@@ -297,5 +297,5 @@ To use an external power supply we can buy different modules and we have many wa
 
 ![image24](https://cloud.githubusercontent.com/assets/1657291/9610871/82323de0-50dc-11e5-8c54-9b8633534cc4.png)
 
-Note for purchasing this module. Observe welding skewers that go to the breadboard. In my case the weld was bad, as I do: -D, and were linked. So when I plugged, he began to take a nice smoke through the input transistor. 
+Note for purchasing this module. Observe the welds on the breadboard to the supply power (in red) . In my case the weld was bad, as I do: -D, and were connected each other. So when I plugged, he began to take a nice smoke through the input transistor. 
 Forewarned :-D
