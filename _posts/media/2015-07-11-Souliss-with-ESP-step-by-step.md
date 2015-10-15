@@ -74,10 +74,12 @@ Now, we have configured the software needed to load any sketch that we want in t
 ** IMPORTANT!!! The module ESP8266 works with 3,3V, we NEVER connect to 5v if you do not want burn it. **
 
 - Connection of  FTDI.
+
 ![image22](https://cloud.githubusercontent.com/assets/1657291/9610456/ff83dbd0-50d9-11e5-9918-343b2ff7bc33.png)
 
 
 - Connection module ESP8266.
+
 ![image18](https://cloud.githubusercontent.com/assets/1657291/9610462/0edaa6ea-50da-11e5-8ef2-812ebdd21a24.png)
 
 
@@ -133,6 +135,7 @@ Once we have it downloaded, is necessary put in the program that it use this lib
 
 
 We do selected in Program >> Include Library >> Add .ZIP library.
+
 ![image03](https://cloud.githubusercontent.com/assets/1657291/9610503/3ff56d14-50da-11e5-9706-d7e1ab862e0f.png)
 
 In the window shown we looking for the zip you just downloaded and select it.
@@ -197,6 +200,7 @@ void loop(){
 ```
 
 Now we do a test to sure that all it is right, before we load in ESP8266, we can click Verify. This makes a compilation and warns us that everything has gone well or if there have been failures in the code.
+
 ![image09](https://cloud.githubusercontent.com/assets/1657291/9610686/691b066c-50db-11e5-9c44-e2a46706705c.png)
 
 If all went well, now we can load the sketch in the module. To do that we push the button with an arrow next to the button which we pressed before.
@@ -213,6 +217,7 @@ in the serial out.
 
 
 If all goes well, we should see something like this.
+
 ![image13](https://cloud.githubusercontent.com/assets/1657291/9610710/87db09f8-50db-11e5-88b6-378f92b74d84.png)
 
 **Once load the SKETCH, should get out the connection to ground with the GPIO0 pin.**
