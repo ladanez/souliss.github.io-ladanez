@@ -241,7 +241,7 @@ Ya tenemos el módulo haciendo de gateway en nuestro sistema.
 
 Cierra completamente y vuelve a abrirla para comprobar que se muestra algo parecido a lo siguiente:
 
-![image05](https://cloud.githubusercontent.com/assets/1657291/9610807/0e0229e4-50dc-11e5-82b8-96863af82ee8.jpg)
+![imagen_18](https://cloud.githubusercontent.com/assets/1657291/10508083/29e93ad8-7325-11e5-8c95-eb68a67a0e1c.jpg)
 
 Ahora vamos a realizar una prueba del uso del módulo gateway que acabamos de añadir.
 
@@ -258,7 +258,7 @@ Una vez hecho esto, se nos mostrará el nodo 0, que es la gateway. (si no aparec
 
 Ya seleccionamos el Nodo 0, y ya podemos ver como actúa encendiendo y apagando nuestro led.
 
-![image21](https://cloud.githubusercontent.com/assets/1657291/9610825/33e863c6-50dc-11e5-9555-61ecf15848dc.jpg)
+![imagen_20](https://cloud.githubusercontent.com/assets/1657291/10508110/4c898ec6-7325-11e5-83a3-45a90e9c9775.jpg)
 
 
 
