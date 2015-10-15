@@ -13,11 +13,10 @@ image:
   creditlink: 
 ---
 
-I hope that this tutorial you'll be useful for those like me, we started with the hardware.
-In this tutorial only we use the module ESP8266-01, it is the model with only 2 pins GPIO which be able to find.
+I hope that this tutorial you will be useful for those like me, we started with the hardware.
+In this tutorial only we use the module ESP8266-01, it is the model with less pins GPIO which I have been able to find.
 
-I thank you who helped me and hope that this manual and others I'll be doing to be useful to the community.
-
+I thank who helped me and I hope that this manual and others I'll be doing it will be useful to the community.
 
 Sorry but I have not been able to put pictures in English.
 
