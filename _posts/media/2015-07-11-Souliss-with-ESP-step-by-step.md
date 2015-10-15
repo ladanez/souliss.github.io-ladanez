@@ -260,7 +260,7 @@ Now, we have our gateway module making in our system.
 
 You close it completely and reopen it to make sure that you see something like that:
 
-![image05](https://cloud.githubusercontent.com/assets/1657291/9610807/0e0229e4-50dc-11e5-82b8-96863af82ee8.jpg)
+![imagen_18](https://cloud.githubusercontent.com/assets/1657291/10518275/ea351484-7360-11e5-9fb0-14482d193150.jpg)
 
 Now let's run a test using the gateway module which we just added.
 
@@ -277,7 +277,7 @@ Once we do it that, it show us the node 0. It is the gateway. ( if do not see th
 
 We select the node 0, now we can see how our led switch on/off.
 
-![image21](https://cloud.githubusercontent.com/assets/1657291/9610825/33e863c6-50dc-11e5-9555-61ecf15848dc.jpg)
+![imagen_20](https://cloud.githubusercontent.com/assets/1657291/10518274/ea300890-7360-11e5-953c-dcf89ef82f7b.jpg)
 
 
 
