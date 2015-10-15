@@ -16,7 +16,7 @@ image:
 I hope that this tutorial you will be useful for those like me, we started with the hardware.
 In this tutorial only we use the module ESP8266-01, it is the model with less pins GPIO which I have been able to find.
 
-I thank who helped me and I hope that this manual and others I'll be doing it will be useful to the community.
+I thank who helped me and I hope that this manual and others I'll doing, will be useful to the community.
 
 Sorry but I have not been able to put pictures in English.
 
@@ -24,12 +24,15 @@ Sorry but I have not been able to put pictures in English.
 ## HARDWARE: (I do not specified usb wires, PC and other wires conection.)
 
 - ESP8266 module.
+
 ![image02](https://cloud.githubusercontent.com/assets/1657291/9608868/d368f570-50d0-11e5-9c3f-77585d4bbc25.jpg)
 
 - FTDI (to connect ESP8266 with to the PC).
+
 ![imagen_2b](https://cloud.githubusercontent.com/assets/1657291/10479875/1b73520e-7267-11e5-8e8d-d77420907190.png)
 
 - Protoboard.
+
 ![image14](https://cloud.githubusercontent.com/assets/1657291/9608930/269d1abe-50d1-11e5-8779-36ad3ff43c2c.jpg)
 
 - Móvil/Tablet with android for instalation the SOULISS app.
@@ -278,16 +281,20 @@ Note that if connect externally to power supply, the pins that are used from the
 To use an external power supply we can buy different modules and we have many ways to do:
 
 - Connecting a mobile phone charger. There are some mobile charger that allows connecting a USB cable. We will use this module and connect to FTDI. It is easy and safe. Such chargers usually provide 0.8A.
+
 ![image10](https://cloud.githubusercontent.com/assets/1657291/9610839/5474ac76-50dc-11e5-8a21-8868b663b1b9.jpg)
 
 - Connecting a computer power supply and extract the necessary voltage pins that connect to the board. There are many videos which explains how to do it. This way is relatively safe, since the power supplies of computers, have good regulators and the tensions are accurate.
+
 ![image12](https://cloud.githubusercontent.com/assets/1657291/9610848/5fa7cbfa-50dc-11e5-8e8f-257eed02ce87.jpg)
 
 - You can also connect through a battery connector, taking care not to exceed the 3.5V maximum allowed to ESP8266. You can adjust the tension with a cheapie module like this.
+
 ![image07](https://cloud.githubusercontent.com/assets/1657291/9610863/70cc69e0-50dc-11e5-87a4-1b591cce08cc.jpg)
 ![image15](https://cloud.githubusercontent.com/assets/1657291/9610864/70f0a562-50dc-11e5-93f0-1bacdb995c34.jpg)
 
 -●	Finally you can use a cheap module that supply the circuit through the breadboard. The only thing to consider in this module is to put the Jumper (in red) in 3.3v, always supply the circuit with at least 9V. If you do it through a mobile phone charger; with jumper on 3.3V, do not supply more than 2.5V, but if you put the jumper on 5v, the output provides 3.6v, high, but safe to supply the circuit.
+
 ![image24](https://cloud.githubusercontent.com/assets/1657291/9610871/82323de0-50dc-11e5-8c54-9b8633534cc4.png)
 
 Note for purchasing this module. Observe welding skewers that go to the breadboard. In my case the weld was bad, as I do: -D, and were linked. So when I plugged, he began to take a nice smoke through the input transistor. 
