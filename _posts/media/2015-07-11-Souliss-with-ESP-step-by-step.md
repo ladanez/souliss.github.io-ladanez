@@ -45,6 +45,7 @@ We need install the Arduino IDE to load an sketch on the ESP8266 module. You can
 Once downloaded the IDE you need to add the ESP8266 core on Arduino IDE to upload an sketch into the ESP8266.
 
 The following window will open:
+
 ![imagen_4](https://cloud.githubusercontent.com/assets/1657291/10479572/771a42b8-7265-11e5-8d97-d36f9ae27d28.png)
 
 In the red area it is necessary write it the same that you can see in the image: (You can see the docs here https://github.com/esp8266/Arduino)
