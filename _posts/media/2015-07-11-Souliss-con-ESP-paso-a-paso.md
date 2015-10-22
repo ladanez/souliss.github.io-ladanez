@@ -22,12 +22,15 @@ Agradezco a los que me habéis ayudado a orientarme un poco y espero que este ma
 ## HARDWARE: (No especificó los cables usb, ordenador y cableado para las conexiones)
 
 - Módulo ESP8266.
+- 
 ![image02](https://cloud.githubusercontent.com/assets/1657291/9608868/d368f570-50d0-11e5-9c3f-77585d4bbc25.jpg)
 
 - FTDI (para poder conectar el módulo ESP8266 al ordenador).
-![image19](https://cloud.githubusercontent.com/assets/1657291/9608919/159d5616-50d1-11e5-90dd-acf8f117beb8.jpg)
+- 
+![imagen_2b](https://cloud.githubusercontent.com/assets/1657291/10479875/1b73520e-7267-11e5-8e8d-d77420907190.png)
 
 - Protoboard.
+- 
 ![image14](https://cloud.githubusercontent.com/assets/1657291/9608930/269d1abe-50d1-11e5-8779-36ad3ff43c2c.jpg)
 
 - Móvil/Tablet con android para la instalación del programa SOULISS.
@@ -41,16 +44,19 @@ Una vez descargado es necesario realizar una actualización de un módulo para p
 Para ello una vez instalado el programa Arduino iremos al menú superior Archivo>>Preferencias.
 
 Se abrirá la siguiente ventana:
-![image16](https://cloud.githubusercontent.com/assets/1657291/9609021/a1725056-50d1-11e5-8e55-996295d03b96.png)
+
+![imagen_4](https://cloud.githubusercontent.com/assets/1657291/10479572/771a42b8-7265-11e5-8d97-d36f9ae27d28.png)
 
 En el área que se muestra en rojo es necesario escribir lo siguiente, como se puede ver en la imagen: (podéis ver la documentación aqui https://github.com/esp8266/Arduino)
 
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 Una vez hecho este paso, vamos a Herramientas >> Placa (la que este seleccionada) >> Boards Manager.
+
 ![image08](https://cloud.githubusercontent.com/assets/1657291/9609049/d177a72e-50d1-11e5-82d0-87641dc406a3.png)
 
 Se mostrará la siguiente ventana y hay que bajar hasta encontrar lo siguiente:
+
 ![image04](https://cloud.githubusercontent.com/assets/1657291/9609068/e522360e-50d1-11e5-8fec-47795e02513c.png)
 
 Darle al botón “Install” en mi caso como ya está instalado se muestra “Removed”. Paciencia porque tarda un poco, aunque depende de cada conexión de internet.
@@ -58,6 +64,7 @@ Darle al botón “Install” en mi caso como ya está instalado se muestra “R
 Para comprobar que todo ha ido correctamente volved a acceder a  Herramientas >> Placa (la que esté seleccionada) >> Boards Manager. Y en la parte inferior del menú deberá verse la placa ESP8266 Generic. 
 
 Seleccionamos dicha placa y dejamos la configuración por defecto que suele ser:
+
 ![image16](https://cloud.githubusercontent.com/assets/1657291/9609152/6bb1a632-50d2-11e5-82a7-f917fa3203ab.png)
 
 En mi caso mi placa ESP8266 es exactamente este modelo de Banggood  (http://www.banggood.com/es/Upgraded-Version-1M-Flash-ESP8266-ESP-01-WIFI-Transceiver-Wireless-Module-p-979509.html)  y sin embargo a cargado correctamente el sketch. Así que si tenéis esta o placas similares no os preocupeis, seguro que os carga con esta configuración.
@@ -69,10 +76,12 @@ En este momento, ya tenemos configurado el software necesario para cargar cualqu
 **!!! IMPORTANTÍSIMO!!! El módulo ESP8266 funciona a 3,3V, de manera que no se debe conectar a un voltaje de 5v si no quieres fundirlo.**
 
 - Conexiones de FTDI.
+- 
 ![image22](https://cloud.githubusercontent.com/assets/1657291/9610456/ff83dbd0-50d9-11e5-9918-343b2ff7bc33.png)
 
 
 - Conexiones del módulo ESP8266.
+- 
 ![image18](https://cloud.githubusercontent.com/assets/1657291/9610462/0edaa6ea-50da-11e5-8ef2-812ebdd21a24.png)
 
 
@@ -192,6 +201,7 @@ void loop(){
 ```
 
 Para hacer una prueba de que todo va bien, antes de meterlo en el ESP8266 podemos pulsar Verificar. Esto realizará una compilación y nos avisará que todo ha ido bien o si se han producido fallos.
+
 ![image09](https://cloud.githubusercontent.com/assets/1657291/9610686/691b066c-50db-11e5-9c44-e2a46706705c.png)
 
 
@@ -206,6 +216,7 @@ Global variables use 49.224 bytes (60%) of dynamic memory, leaving 32.696 bytes 
 en la salida de datos.
 
 Si todo ha ido bien deberíamos ver algo parecido a esto.
+
 ![image13](https://cloud.githubusercontent.com/assets/1657291/9610710/87db09f8-50db-11e5-88b6-378f92b74d84.png)
 
 **Una vez cargado el SKETCH, debemos quitar la conexión a GND del GPIO0.**
@@ -228,6 +239,7 @@ Si No te apareciera, comprueba que has quitado el GPIO0 de la masa (GND). Y hazl
 Ya tenemos la IP de nuestro módulo ESP8266 que está haciendo de Gateway en Souliss.
 
 Ahora abrimos la aplicación Souliss de nuestro android. En mi caso una tablet.
+
 ![image17](https://cloud.githubusercontent.com/assets/1657291/9610788/f23742d0-50db-11e5-94c5-ae35481e425a.jpg)
 
 Veremos algo así.
@@ -235,6 +247,7 @@ Veremos algo así.
 Pulsamos en los tres puntos que hay junto a OFFLINE en rojo en la esquina superior derecha. Y accedemos al menú de configuración.
 
 En el menú, en la parte izquierda seleccionamos Opciones de Red y en el nuevo menú que nos muestra, en la opción donde pone “Dirección local de Souliss (obligatorio)” establecemos la ip de nuestro flamante nuevo módulo, en mi caso la ip 192.168.1.37.
+
 ![image25](https://cloud.githubusercontent.com/assets/1657291/9610799/ffafc46e-50db-11e5-8d26-a879460ade9e.jpg)
 
 Ya tenemos el módulo haciendo de gateway en nuestro sistema.
@@ -272,16 +285,21 @@ Tened en cuenta que si lo conectais de forma externa, los pines que se usan desd
 Para ello existen varios módulos y formas de hacerlo:
 
 - Conectar un cargador de móvil. Hay algunos cargadores de móvil que permite conectarle un cable usb. Usaremos este módulo y lo conectaremos al FTDI. Es sencillo y seguro. Ese tipo de cargadores suelen proporcionar 0,8A.
+- 
 ![image10](https://cloud.githubusercontent.com/assets/1657291/9610839/5474ac76-50dc-11e5-8a21-8868b663b1b9.jpg)
 
 - Conectar un fuente de alimentación de ordenador y extraer el voltaje necesario de los pines que se conectan a la placa. Hay muchos videos donde se explica como hacerlo. Esta forma es relativamente segura, ya que las fuentes de alimentación de ordenadores, tienen buenos reguladores y las tensiones son exactas.
+- 
 ![image12](https://cloud.githubusercontent.com/assets/1657291/9610848/5fa7cbfa-50dc-11e5-8e8f-257eed02ce87.jpg)
 
 - También podéis conectar pilas a través de un conector, teniendo cuidado de no superar los 3,5v máximo que permite el ESP8266. Podéis regular la tensión con un módulo muy baratito como este.
+- 
 ![image07](https://cloud.githubusercontent.com/assets/1657291/9610863/70cc69e0-50dc-11e5-87a4-1b591cce08cc.jpg)
+
 ![image15](https://cloud.githubusercontent.com/assets/1657291/9610864/70f0a562-50dc-11e5-93f0-1bacdb995c34.jpg)
 
 -Por último podéis usar un módulo que es barato para poder alimentar el circuito a través de la protoboard. Lo único que hay que tener en cuenta en este módulo es poner los Jumper (en rojo) en 3,3v, siempre que alimentan el circuito con al menos 9V, si lo haceis como yo a través de un cargador de móvil; con los jumper en 3,3v, no da de salida más de 2,5v, pero si pones los jumper en 5v, la salida proporciona 3,6v, alto, pero seguro para alimentar el circuito de protoboard.
+
 ![image24](https://cloud.githubusercontent.com/assets/1657291/9610871/82323de0-50dc-11e5-8c54-9b8633534cc4.png)
 
 Nota para los que compreis este módulo. Echad un vistazo a la soldadura de los pinchos que van a la placa protoboard. En mi caso la soldadura era de las malas, como las que hago yo, y estaban puenteados. De manera que cuando lo conecte, comenzó a echar un agradable humillo a través del transistor de la entrada y me quede con cara de tonto. Avisados quedáis :-D.
